@@ -11,21 +11,140 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
-    <!-- Tailawind CDN  -->
+    <!-- Tailwind CDN  -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awaesome -->
-    <script src="https://kit.fontawesome.com/200b26989e.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/200b26989e.js"
+      crossorigin="anonymous"
+    ></script>
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
   </head>
-  <body></body>
+  <body>
+    <!-- Main Content  -->
+    <main class="max-w-screen-xl mx-auto px-26 lg:">
+      <!-- Header Section -->
+      <header class="lg:flex mt-10 mb-20">
+        <!-- heading  -->
+        <div>
+          <h1 class="text-5xl md:text-7xl mb-4">
+            It's good <br />tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-[#777777] mb-4">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <button
+            class="bg-gradient-to-r from-orange-500 to-red-500 py-3 px-4 rounded-lg text-white text-bold"
+          >
+            Explore Me <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Heading Image -->
+        <div class="relative">
+          <img class="w-full" src=" images/banner.png " alt="" />
+          <!-- Sticky Badge -->
+          <div
+            class="absolute flex items-center gap-4 bg-white shadow-lg px-2 py-2 md:px-10 lg:py-5 rounded-lg top-28 left-64 md:top-80 md:left-32 lg:left-28"
+          >
+            <!-- icons -->
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="white"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-7 text-amber-500"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                />
+              </svg>
+            </div>
+            <div class="ml-2">
+              <h2 class="text-2xl font-bold">5.00</h2>
+              <p class="text-gray-500">Trust Pilot Rating</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Features Product Section  -->
+      <section class="py-8 lg:py-24">
+        <!-- Title Section  -->
+
+        <div class="text-center">
+          <h1 class="text-3xl md:text-4xl font-bold mb-4">
+            Our Featured Products
+          </h1>
+          <p class="text-[#777777] max-w-xl mx-auto mb-12">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour
+          </p>
+        </div>
+        <!-- Grid Card -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+          <!-- Single Card-1  -->
+          <div class="rounded-lg shadow-md bg-gray-100">
+            <img class="mx-auto pt-4" src="images/tea-1.png" alt="" />
+            <div class="p-4 text-center">
+              <h2 class="text-2xl font-bold mb-2">Milk Tea</h2>
+              <p class="text-[#777777] mb-2 font-bold">
+                Creamer could be <br />
+                replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- Single Card-2  -->
+          <div class="rounded-lg shadow-md bg-gray-100">
+            <img class="mx-auto pt-4" src="images/tea-2.png" alt="" />
+            <div class="p-4">
+              <h2 class="text-2xl font-bold mb-2">Black Tea</h2>
+              <p class="text-[#777777] mb-2 font-bold">
+                Creamer could be <br />
+                replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- Single Card-3  -->
+          <div class="rounded-lg shadow-md bg-gray-100">
+            <img class="mx-auto pt-4" src="images/tea-3.png" alt="" />
+            <div class="p-4">
+              <h2 class="text-2xl font-bold mb-2">Lemon Tea</h2>
+              <p class="text-[#777777] mb-2 font-bold">
+                Creamer could be <br />
+                replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- Single Card-4  -->
+          <div class="rounded-lg shadow-md bg-gray-100">
+            <img class="mx-auto pt-4" src="images/tea-4.png" alt="" />
+            <div class="p-4">
+              <h2 class="text-2xl font-bold mb-2">Green Tea</h2>
+              <p class="text-[#777777] mb-2 font-bold">
+                Creamer could be <br />
+                replaced by fresh milk
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
